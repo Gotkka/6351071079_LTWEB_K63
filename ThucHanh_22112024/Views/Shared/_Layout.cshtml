@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Thế giới xe</title>
+    <link href="~/Content/css/cssweb.css" rel="stylesheet" />
+    <link href="~/Content/css/trangchu.css" rel="stylesheet" />
+    <script src="Scripts/chitiet.js"></script>
+</head>
+<body>
+    <header>
+        <img src="~/Content/images/logo.png">
+    </header>
+    <div class="trai">
+    </div>
+    <nav>
+        <div id="menu">
+            <ul>
+                <li><a href="#" target="_self">TRANG CHỦ</a></li>
+                <li>
+                    <a href="#" target="_self">LOẠI XE</a>
+                    <ul>
+                        @Html.Action("LoaiXe", "Motorcycle")
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" target="_self">NHÀ PHÂN PHỐI</a>
+                    <ul>
+                        @Html.Action("NhaPhanPhoi", "Motorcycle")
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" target="_self">THÀNH VIÊN</a>
+                    <ul>
+                        <li><a href="Dangky.html" target="_self">Đăng ký thành viên</a></li>
+                        <li><a href="dangnhap.html" target="_self">Đăng nhập</a></li>
+                    </ul>
+                </li>
+                <li><a href="Lienhe2.html" target="_self">LIÊN HỆ</a></li>
+            </ul>
+        </div>
+        <div class="tim">
+            <form>
+                <input type="text" autofocus placeholder="Tìm kiếm xe, giá xe...">
+                <input type="submit" value="Tìm kiếm">
+            </form>
+        </div>
+    </nav>
+        @RenderBody()
+    @*<footer>
+        <p>HOẠT ĐỘNG</p>
+        <a href="https://www.facebook.com/profile.php?id=100008119811438"><img class="img" src="~/Content/images/facebook.png"></a>
+        <a href="https://www.youtube.com/channel/UCP-v-aRbWhEjOKWXxTo7wJw?view_as=subscriber"><img class="img" src="~/Content/images/youtube.png"></a>
+    </footer>*@
+
+    @*<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+        <script src="~/Scripts/bootstrap.min.js"></script>*@
+</body>
+</html>

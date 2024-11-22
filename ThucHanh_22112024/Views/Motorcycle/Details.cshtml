@@ -1,0 +1,19 @@
+﻿@model ThucHanh_22112024.Models.XEGANMAY
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    <link href="~/Content/css/Details.css" rel="stylesheet" />
+}
+
+<div class="xe">
+    <img src="~/Content/@Model.Anhbia" />
+    <h2>@Model.TenXe</h2>
+    <p class="price">Giá bán: @Model.Giaban</p>
+    <p class="description">Mô tả: @Model.Mota</p>
+
+    <button>
+        Đặt hàng
+    </button>
+</div>
+
+
