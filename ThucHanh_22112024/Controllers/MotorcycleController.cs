@@ -5,6 +5,10 @@ using System.Web;
 using System.Web.Mvc;
 using ThucHanh_22112024.Models;
 
+using PagedList;
+using PagedList.Mvc;
+using System.Web.UI;
+
 namespace ThucHanh_22112024.Controllers
 {
     public class MotorcycleController : Controller
@@ -15,13 +19,15 @@ namespace ThucHanh_22112024.Controllers
         {
             return qLBanXeGanMay.XEGANMAYs.OrderByDescending(x => x.Ngaycapnhat).Take(count).ToList();
         }
-
         // GET: Motorcycle
-        public ActionResult Index()
+        public ActionResult Index(int ? page)
         {
+            int pageSize = 2;
+            int pageNum = (page ?? 1);
             var xeMoi = LayXeMoi(5);
-            return View(xeMoi);
+            return View(xeMoi.ToPagedList(pageNum, pageSize));
         }
+
 
         public ActionResult LoaiXe()
         {
@@ -51,5 +57,7 @@ namespace ThucHanh_22112024.Controllers
             var xeganmay = from xgm in qLBanXeGanMay.XEGANMAYs where xgm.MaXe == id select xgm;
             return View(xeganmay.Single()); 
         }
+
+
     }
 }

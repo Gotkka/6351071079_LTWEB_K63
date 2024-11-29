@@ -182,3 +182,54 @@ aside#right>div>marquee img{
 }
 
 
+
+/* Basic section styling */
+section {
+	margin-top: 20px;
+}
+
+/* Wrapper for slides */
+.wraper {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+
+/* Styling for slides */
+.slide {
+	display: flex;
+	width: 100%;
+	transition: transform 0.5s ease-in-out;
+}
+
+	/* Slide items, each one with a specific width */
+	.slide div {
+		flex: 0 0 100%;
+	}
+
+/* For the list of products */
+#danhsachxe {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	gap: 15px;
+}
+
+/* Each product item */
+.product-item {
+	width: 22%; /* Adjust the width to your preference */
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.product-image {
+	width: 100%;
+	height: auto;
+}
+
+.product-name {
+	display: block;
+	margin-top: 10px;
+	font-size: 16px;
+	font-weight: bold;
+}

@@ -74,3 +74,7 @@ D:\LAPTRINHWEB\ThucHanh\ThucHanh_22112024\ThucHanh_22112024\ThucHanh_22112024\ob
 D:\LAPTRINHWEB\ThucHanh\ThucHanh_22112024\ThucHanh_22112024\ThucHanh_22112024\obj\Debug\ThucHanh_22112024.pdb
 D:\LAPTRINHWEB\ThucHanh\ThucHanh_22112024\ThucHanh_22112024\ThucHanh_22112024\bin\EntityFramework.SqlServer.dll
 D:\LAPTRINHWEB\ThucHanh\ThucHanh_22112024\ThucHanh_22112024\ThucHanh_22112024\bin\EntityFramework.SqlServer.xml
+D:\LAPTRINHWEB\ThucHanh\ThucHanh_22112024\ThucHanh_22112024\ThucHanh_22112024\bin\PagedList.dll
+D:\LAPTRINHWEB\ThucHanh\ThucHanh_22112024\ThucHanh_22112024\ThucHanh_22112024\bin\PagedList.Mvc.dll
+D:\LAPTRINHWEB\ThucHanh\ThucHanh_22112024\ThucHanh_22112024\ThucHanh_22112024\bin\PagedList.xml
+D:\LAPTRINHWEB\ThucHanh\ThucHanh_22112024\ThucHanh_22112024\ThucHanh_22112024\bin\PagedList.Mvc.xml

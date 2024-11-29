@@ -51,6 +51,12 @@
       <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="PagedList, Version=1.17.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\PagedList.1.17.0.0\lib\net40\PagedList.dll</HintPath>
+    </Reference>
+    <Reference Include="PagedList.Mvc, Version=4.5.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\PagedList.Mvc.4.5.0.0\lib\net40\PagedList.Mvc.dll</HintPath>
+    </Reference>
     <Reference Include="System.Data.Entity" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Security" />
@@ -98,18 +104,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\css\CartIndex.css" />
     <Content Include="Content\css\chitiet.css" />
     <Content Include="Content\css\cssweb.css" />
     <Content Include="Content\css\CUB.css" />
+    <Content Include="Content\css\DangNhap.css" />
     <Content Include="Content\css\Details.css" />
-    <Content Include="Content\css\dk.css" />
-    <Content Include="Content\css\dn.css" />
     <Content Include="Content\css\GSX-S150.css" />
     <Content Include="Content\css\honda.css" />
     <Content Include="Content\css\lh2.css" />
     <Content Include="Content\css\lienhe.css" />
+    <Content Include="Content\css\phantrang.css" />
     <Content Include="Content\css\slide.css" />
     <Content Include="Content\css\trangchu.css" />
+    <Content Include="Content\css\Dangky.css" />
     <Content Include="Content\Images\2.png" />
     <Content Include="Content\Images\256-256-3a1eef40f04875d93dd6545f2f1b727e-youtube.png" />
     <Content Include="Content\Images\a.jpg" />
@@ -271,6 +279,7 @@
     <Content Include="Content\Images\yamaha-icb.png" />
     <Content Include="Content\Images\youtube-icon-vector-21082515.jpg" />
     <Content Include="Content\Images\youtube.png" />
+    <Content Include="Content\PagedList.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Global.asax" />
     <Content Include="Models\QLBanXeGanMay.Context.tt">
@@ -290,11 +299,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\CartController.cs" />
+    <Compile Include="Controllers\CustomerController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MotorcycleController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Cart.cs" />
     <Compile Include="Models\CHITIETDONTHANG.cs">
       <DependentUpon>QLBanXeGanMay.tt</DependentUpon>
     </Compile>
@@ -354,6 +366,12 @@
     <Content Include="Views\Motorcycle\SPTheoLoaiXe.cshtml" />
     <Content Include="Views\Motorcycle\SPTheoNhaPhanPhoi.cshtml" />
     <Content Include="Views\Motorcycle\Details.cshtml" />
+    <Content Include="Views\Customer\DangKy.cshtml" />
+    <Content Include="Views\Customer\Index.cshtml" />
+    <Content Include="Views\Customer\DangNhap.cshtml" />
+    <Content Include="Views\Cart\Cart.cshtml" />
+    <Content Include="Views\Cart\Index.cshtml" />
+    <Content Include="Views\Cart\ConfirmOrder.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -1,0 +1,107 @@
+﻿@using ThucHanh_22112024.Models
+@model IEnumerable<ThucHanh_22112024.Models.Cart>
+
+@{
+    ViewBag.Title = "Your Shopping Cart";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    <link href="~/Content/css/CartIndex.css" rel="stylesheet" />
+}
+@if (ViewBag.TotalQuantity == 0)
+{
+    <p>Your cart is empty.</p>
+    <a href="@Url.Action("Index", "Motorcycle")">Browse Products</a>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Image</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Total</th>
+                <th>Remove</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Motorcycle.TenXe</td> <!-- Using Motorcycle.TenXe for the name -->
+                    <td>
+                        <img src="@Url.Content($"~/Content/{item.Motorcycle.Anhbia}")" alt="@item.Motorcycle.TenXe" style="max-width: 100px;height: auto; " />
+                    </td>
+                    <td>
+                        <!-- Form to update the quantity -->
+                        <form action="@Url.Action("UpdateCart", "Cart")" method="post">
+                            <input type="hidden" name="id" value="@item.motorcycleId" />
+                            <input type="number" class="form-control" name="quantity" value="@item.quantity" min="1" max="99" />
+                            <button type="submit" class="btn btn-warning">Update</button>
+                        </form>
+                    </td>
+                    <td>@item.Motorcycle.Giaban</td> <!-- Using Motorcycle.Giaban for the price -->
+                    <td>@item.totalMoney</td> <!-- Using totalMoney for the total price -->
+                    <td>
+                        <a href="@Url.Action("Details", "Motorcycle", new { id = item.motorcycleId })" class="btn btn-danger">Detail</a>
+                        <a href="@Url.Action("RemoveCart", "Cart", new { id = item.motorcycleId })" class="btn btn-danger">Remove</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <div class="order-summary">
+        <h3>Thông tin đặt hàng</h3>
+
+        @{
+            KHACHHANG kh = (KHACHHANG)Session["User"];
+        }
+
+        @if (Session["User"] != null)
+        {
+            <table class="table">
+                <tbody>
+                    <tr>
+                        <td><strong>Name:</strong></td>
+                        <td>@kh.HoTen</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Address:</strong></td>
+                        <td>@kh.DiachiKH</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Phone:</strong></td>
+                        <td>@kh.DienthoaiKH</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Email:</strong></td>
+                        <td>@kh.Email</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Ngày đặt:</strong></td>
+                        <td>@DateTime.Now.ToShortDateString()</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Ngày nhận hàng:</strong></td>
+                        <td>
+                            <input type="date" name="NgayGiao" value="@DateTime.Now.AddDays(1).ToString("yyyy-MM-dd")" />
+                        </td>
+                    </tr>
+
+
+                </tbody>
+            </table>
+        }
+        else
+        {
+            <p><strong>No account logged in.</strong></p>
+        }
+    </div>
+
+    <div class="cart-actions">
+        <a href="@Url.Action("Index", "Motorcycle")" class="btn btn-primary">Continue Shopping</a>
+        <a href="@Url.Action("Order", "Cart")" class="btn btn-success">Proceed to Checkout</a>
+        <a href="@Url.Action("RemoveAll", "Cart")" class="btn btn-danger">Clear Cart</a>
+    </div>
+}

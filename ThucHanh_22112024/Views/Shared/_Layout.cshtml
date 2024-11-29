@@ -6,6 +6,8 @@
     <link href="~/Content/css/cssweb.css" rel="stylesheet" />
     <link href="~/Content/css/trangchu.css" rel="stylesheet" />
     <script src="Scripts/chitiet.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 </head>
 <body>
     <header>
@@ -16,7 +18,7 @@
     <nav>
         <div id="menu">
             <ul>
-                <li><a href="#" target="_self">TRANG CHỦ</a></li>
+                <li><a href="@Url.Action("Index", "Motorcycle")" target="_self">TRANG CHỦ</a></li>
                 <li>
                     <a href="#" target="_self">LOẠI XE</a>
                     <ul>
@@ -32,11 +34,21 @@
                 <li>
                     <a href="#" target="_self">THÀNH VIÊN</a>
                     <ul>
-                        <li><a href="Dangky.html" target="_self">Đăng ký thành viên</a></li>
-                        <li><a href="dangnhap.html" target="_self">Đăng nhập</a></li>
+                        <li><a href="@Url.Action("Dangky", "Customer")" target="_self">Đăng ký thành viên</a></li>
+                        <li><a href="@Url.Action("DangNhap", "Customer")" target="_self">Đăng nhập</a></li>
                     </ul>
                 </li>
                 <li><a href="Lienhe2.html" target="_self">LIÊN HỆ</a></li>
+
+                <!-- Shopping Cart Icon -->
+                <li>
+                    <a href="@Url.Action("Index", "Cart")" target="_self">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-count">
+                            @Session["TotalQuantity"]
+                        </span> 
+                    </a>
+                </li>
             </ul>
         </div>
         <div class="tim">
