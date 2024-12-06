@@ -1,0 +1,87 @@
+﻿
+@using ThucHanh_22112024.Models
+@using PagedList.Mvc
+@model  PagedList.PagedList<XEGANMAY>
+@{
+    ViewBag.Title = "Index";
+    <link href="~/Content/css/phantrang.css" rel="stylesheet" />
+}
+
+<article>
+    <section>
+        <div class="wraper">
+            <div class="slide">
+                <div class="slide_1 ra">
+                    <img src="~/Content/images/FB.jpg" alt="" width="1100" height="200">
+                </div>
+                <div class="slide_2">
+                    <img src="https://www.suzuki.com.vn/images/GD110/BANNER-LAI-THU-GD110-APRIL.png" alt="" width="1100" height="200">
+                </div>
+                <div class="slide_3">
+                    <img src="https://www.suzuki.com.vn/images/GSX150-Bandit/BANDIT-TEST-DRIVE-BANNER.png" alt="" width="1100" height="200">
+                </div>
+            </div>
+            <div class="nut">
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+
+        <br><br>
+        <div id="danhsachxe">
+            @foreach (var xe in Model)
+            {
+                <div class="product-item">
+                    <a href="@Url.Action("Details", "Motorcycle", new { id = xe.MaXe })">
+                        <img alt="@xe.TenXe" src="~/Content/@xe.Anhbia" class="product-image" />
+                        <span class="product-name">@xe.TenXe</span>
+                    </a>
+                </div>
+            }
+        </div>
+    </section>
+
+    <div>
+        <p id="pageInfo">Trang @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) / @Model.PageCount</p>
+        <div class="menuTrang">
+            @Html.PagedListPager(Model, page => Url.Action("Index", new { page = page }))
+        </div>
+    </div>
+
+
+    <aside id="right">
+        <div>
+            <p><strong>SẢN PHẨM MỚI</strong></p>
+            <marquee onMouseOut="start()" onMouseOver="stop()" scrollamount="4" scrolldelay="100" direction="up">
+                <div>
+                    <img src="~/Content/images/XE/Honda/danh-gia-honda-air-blade-2015-gia-xe-va-chi-tiet-hinh-anh-457-1420225983-54a6edbf31871.jpg">
+                    <p><a href="#">Honda Air Blade 2015</a></p>
+                    <p class="maugia">40.990.000 VND</p>
+                </div>
+                <div id="viencham">
+                    <img src="~/Content/images/XE/Honda/danh-gia-xe-future-2016-honda-hinh-anh-gia-ban-moi-nhat-1.jpg">
+                    <p><a href="#">Honda Future 125 FI</a></p>
+                    <p class="maugia">30.990.000 VND</p>
+                </div>
+                <div>
+                    <img src="~/Content/images/XE/Honda/vision-1443.jpg">
+                    <p><a href="#">VISION 2014</a></p>
+                    <p class="maugia">29.990.000 VND</p>
+                </div>
+                <div>
+                    <img src="~/Content/images/XE/Honda/Đánh-giá-xe-Honda-Blade-110-2016-hình-ảnh-giá-bán-thị-trường-7.jpg">
+                    <p><a href="#">Honda Blade</a></p>
+                    <p class="maugia">20.600.000 VND</p>
+                </div>
+                <div>
+                    <img src="~/Content/images/XE/Honda/4514790_Xe_Tinhte_SH_2.jpg">
+                    <p><a href="#">SH 150cc</a></p>
+                    <p class="maugia">79.990.000 VND</p>
+                </div>
+            </marquee>
+        </div>
+    </aside>
+</article>

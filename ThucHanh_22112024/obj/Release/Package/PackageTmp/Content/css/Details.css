@@ -1,0 +1,72 @@
+﻿.xe {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    margin: 16px;
+    background-color: #f9f9f9;
+    text-align: center; /* Căn giữa văn bản */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Căn giữa theo chiều dọc */
+    align-items: center; /* Căn giữa theo chiều ngang */
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+    .xe:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .xe img {
+        width: 80%; /* Giảm kích thước ảnh để không quá lớn */
+        height: auto;
+        border-radius: 8px;
+        margin-bottom: 16px; /* Thêm khoảng cách dưới ảnh */
+    }
+
+    .xe h2 {
+        font-size: 1.5rem;
+        color: #333;
+        margin: 16px 0;
+    }
+
+    .xe p {
+        font-size: 1rem;
+        color: #555;
+        margin: 8px 0;
+    }
+
+    .xe .price {
+        font-weight: bold;
+        color: red;
+    }
+
+    .xe .description {
+        font-style: italic;
+        color: #666;
+    }
+    .xe button {
+        padding: 10px 20px; /* Khoảng cách giữa các cạnh của nút */
+        background-color: #007BFF; /* Màu nền của nút */
+        color: white; /* Màu chữ */
+        border: none; /* Xóa viền */
+        border-radius: 5px; /* Bo tròn các góc của nút */
+        font-size: 16px; /* Kích thước chữ */
+        cursor: pointer; /* Hiển thị con trỏ khi di chuột vào nút */
+        transition: background-color 0.3s, transform 0.3s; /* Hiệu ứng chuyển màu nền và hiệu ứng di chuyển */
+    }
+
+        .xe button:hover {
+            background-color: #0056b3; /* Màu nền khi di chuột vào */
+            transform: scale(1.05); /* Hiệu ứng phóng to khi di chuột vào nút */
+        }
+
+        .xe button:focus {
+            outline: none; /* Xóa đường viền khi nút được chọn */
+        }
+
+        .xe button:active {
+            background-color: #004085; /* Màu nền khi nhấn vào nút */
+            transform: scale(1); /* Quay lại kích thước ban đầu khi nhấn */
+        }

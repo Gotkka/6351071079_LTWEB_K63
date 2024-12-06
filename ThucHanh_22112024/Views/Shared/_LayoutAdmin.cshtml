@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/Content/css/LayoutAdmin.css" rel="stylesheet" />
+    <script src="~/tinymce/js/tinymce/tinymce.min.js"></script>
+    <script>tinymce.init({ selector: 'textarea' });</script>
+</head>
+<body>
+    <nav>
+        <div id="menu">
+            <ul>
+                <li>
+                    @Html.ActionLink("TRANG CHỦ", "Index", "Admin")
+                </li>
+                <li>
+                    @Html.ActionLink("Quản lý loại xe", "Index", "Admin")
+                </li>
+                <li>
+                    @Html.ActionLink("Quản lý nhà phân phối", "Index", "Admin")
+                </li>
+                <li>
+                    @Html.ActionLink("Quản lý xe gắn máy", "XeGanMay", "Admin")
+                </li>
+                <li>
+                    @Html.ActionLink("Thống kê xe gắn máy", "Statistical", "Admin")
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="body-content">
+        @RenderBody()
+    </div>
+</body>
+</html>

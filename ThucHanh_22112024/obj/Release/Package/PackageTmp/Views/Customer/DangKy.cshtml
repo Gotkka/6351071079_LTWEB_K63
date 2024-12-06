@@ -1,0 +1,119 @@
+﻿@{
+    ViewBag.Title = "Đăng ký";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    <link href="~/Content/css/Dangky.css" rel="stylesheet" />
+}
+
+<form action="@Url.Action("DangKy", "Customer")" method="post" name="dangky">
+    <div id="dktv">
+        <h3>ĐĂNG KÝ THÀNH VIÊN</h3>
+    </div>
+    <div id="dangky">
+        <fieldset id="thongtincn">
+            <legend><b>Thông tin cá nhân</b></legend>
+            <table width="700" cellpadding="0" border="0" cellspacing="2">
+                <tr>
+                    <td width="148" height="24">
+                        <p>Họ và tên:</p>
+                    </td>
+                    <td>
+                        <input id="hoten" type="text" name="txthoten" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Ngày sinh:
+                    </td>
+                    <td>
+                        Ngày
+                        <select name="ngay" required>
+                            <option value="" disabled selected>1</option>
+                            <!-- Day options 1-31 -->
+                            @for (int i = 1; i <= 31; i++)
+                            {
+                                <option value="@i">@i</option>
+                            }
+                        </select>
+                        Tháng
+                        <select name="thang" required>
+                            <option value="" disabled selected>1</option>
+                            <!-- Month options 1-12 -->
+                            @for (int i = 1; i <= 12; i++)
+                            {
+                                <option value="@i">@i</option>
+                            }
+                        </select>
+                        Năm
+                        <input id="nam" type="number" name="txtnam" required min="1900" max="2024">
+                    </td>
+                </tr>
+                <tr>
+                    <td height="27">
+                        <p>Giới tính:</p>
+                    </td>
+                    <td>
+                        <input type="radio" value="Nam" checked name="gioitinh"> Nam
+                        <input type="radio" value="Nữ" name="gioitinh"> Nữ
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Địa chỉ:
+                    </td>
+                    <td>
+                        <textarea name="diachi" required></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td height="23">
+                        <p>Điện thoại:</p>
+                    </td>
+                    <td>
+                        <input type="tel" name="dienthoai" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td height="25">
+                        Email:
+                    </td>
+                    <td>
+                        <input id="email" type="email" name="txtemail" required>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset id="thongtindn">
+            <legend><b>Thông tin đăng nhập</b></legend>
+            <table width="700" border="0" cellspacing="2">
+                <tr>
+                    <td width="155">
+                        Tên đăng nhập:
+                    </td>
+                    <td>
+                        <input id="tendangnhap" type="text" name="txttendangnhap" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Mật khẩu:</p>
+                    </td>
+                    <td>
+                        <input id="matkhau" type="password" name="txtmatkhau" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Nhập lại mật khẩu:
+                    </td>
+                    <td>
+                        <input id="nhaplaimatkhau" type="password" name="txtnhaplaimatkhau" required>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <div align="center">
+            <input type="submit" value="Đăng ký">
+            <input type="reset" value="Hủy">
+        </div>
+    </div>
+</form>

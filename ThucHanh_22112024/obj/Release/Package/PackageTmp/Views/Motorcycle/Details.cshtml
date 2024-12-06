@@ -1,0 +1,18 @@
+﻿@model ThucHanh_22112024.Models.XEGANMAY
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    <link href="~/Content/css/Details.css" rel="stylesheet" />
+}
+
+<div class="xe">
+    <img src="~/Content/@Model.Anhbia" />
+    <h2>@Model.TenXe</h2>
+    <p class="price">Giá bán: @Model.Giaban</p>
+    <p class="description">Mô tả: @Model.Mota</p>
+
+    <button class="btn btn-primary" onclick="location.href='@Url.Action("AddCart", "Cart", new { id = Model.MaXe, returnUrl = Request.Url.AbsoluteUri })'">
+        Đặt hàng
+    </button>
+
+</div>

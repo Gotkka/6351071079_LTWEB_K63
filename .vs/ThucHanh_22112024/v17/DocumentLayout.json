@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "D:\\LAPTRINHWEB\\ThucHanh\\ThucHanh_22112024\\ThucHanh_22112024\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E9D3E19E-89F9-43D6-A33F-81CE0189BC05}|ThucHanh_22112024\\ThucHanh_22112024.csproj|d:\\laptrinhweb\\thuchanh\\thuchanh_22112024\\thuchanh_22112024\\thuchanh_22112024\\content\\css\\phantrang.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{E9D3E19E-89F9-43D6-A33F-81CE0189BC05}|ThucHanh_22112024\\ThucHanh_22112024.csproj|solutionrelative:thuchanh_22112024\\content\\css\\phantrang.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9D3E19E-89F9-43D6-A33F-81CE0189BC05}|ThucHanh_22112024\\ThucHanh_22112024.csproj|d:\\laptrinhweb\\thuchanh\\thuchanh_22112024\\thuchanh_22112024\\thuchanh_22112024\\views\\motorcycle\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E9D3E19E-89F9-43D6-A33F-81CE0189BC05}|ThucHanh_22112024\\ThucHanh_22112024.csproj|solutionrelative:thuchanh_22112024\\views\\motorcycle\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9D3E19E-89F9-43D6-A33F-81CE0189BC05}|ThucHanh_22112024\\ThucHanh_22112024.csproj|d:\\laptrinhweb\\thuchanh\\thuchanh_22112024\\thuchanh_22112024\\thuchanh_22112024\\controllers\\motorcyclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9D3E19E-89F9-43D6-A33F-81CE0189BC05}|ThucHanh_22112024\\ThucHanh_22112024.csproj|solutionrelative:thuchanh_22112024\\controllers\\motorcyclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E9D3E19E-89F9-43D6-A33F-81CE0189BC05}|ThucHanh_22112024\\ThucHanh_22112024.csproj|d:\\laptrinhweb\\thuchanh\\thuchanh_22112024\\thuchanh_22112024\\thuchanh_22112024\\views\\admin\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9D3E19E-89F9-43D6-A33F-81CE0189BC05}|ThucHanh_22112024\\ThucHanh_22112024.csproj|solutionrelative:thuchanh_22112024\\views\\admin\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -47,40 +39,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "phantrang.css",
-              "DocumentMoniker": "D:\\LAPTRINHWEB\\ThucHanh\\ThucHanh_22112024\\ThucHanh_22112024\\ThucHanh_22112024\\Content\\css\\phantrang.css",
-              "RelativeDocumentMoniker": "ThucHanh_22112024\\Content\\css\\phantrang.css",
-              "ToolTip": "D:\\LAPTRINHWEB\\ThucHanh\\ThucHanh_22112024\\ThucHanh_22112024\\ThucHanh_22112024\\Content\\css\\phantrang.css",
-              "RelativeToolTip": "ThucHanh_22112024\\Content\\css\\phantrang.css",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAIwGMAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-11-29T12:17:40.473Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MotorcycleController.cs",
-              "DocumentMoniker": "D:\\LAPTRINHWEB\\ThucHanh\\ThucHanh_22112024\\ThucHanh_22112024\\ThucHanh_22112024\\Controllers\\MotorcycleController.cs",
-              "RelativeDocumentMoniker": "ThucHanh_22112024\\Controllers\\MotorcycleController.cs",
-              "ToolTip": "D:\\LAPTRINHWEB\\ThucHanh\\ThucHanh_22112024\\ThucHanh_22112024\\ThucHanh_22112024\\Controllers\\MotorcycleController.cs",
-              "RelativeToolTip": "ThucHanh_22112024\\Controllers\\MotorcycleController.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAABYAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T12:06:52.008Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\LAPTRINHWEB\\ThucHanh\\ThucHanh_22112024\\ThucHanh_22112024\\ThucHanh_22112024\\Views\\Motorcycle\\Index.cshtml",
-              "RelativeDocumentMoniker": "ThucHanh_22112024\\Views\\Motorcycle\\Index.cshtml",
-              "ToolTip": "D:\\LAPTRINHWEB\\ThucHanh\\ThucHanh_22112024\\ThucHanh_22112024\\ThucHanh_22112024\\Views\\Motorcycle\\Index.cshtml",
-              "RelativeToolTip": "ThucHanh_22112024\\Views\\Motorcycle\\Index.cshtml",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\LAPTRINHWEB\\ThucHanh\\ThucHanh_22112024\\ThucHanh_22112024\\ThucHanh_22112024\\Views\\Admin\\Login.cshtml",
+              "RelativeDocumentMoniker": "ThucHanh_22112024\\Views\\Admin\\Login.cshtml",
+              "ToolTip": "D:\\LAPTRINHWEB\\ThucHanh\\ThucHanh_22112024\\ThucHanh_22112024\\ThucHanh_22112024\\Views\\Admin\\Login.cshtml",
+              "RelativeToolTip": "ThucHanh_22112024\\Views\\Admin\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-29T12:06:04.358Z",
+              "WhenOpened": "2024-12-06T15:14:13.939Z",
               "EditorCaption": ""
             }
           ]

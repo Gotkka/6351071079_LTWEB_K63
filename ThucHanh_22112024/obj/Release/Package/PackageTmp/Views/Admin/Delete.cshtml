@@ -1,0 +1,68 @@
+﻿@model ThucHanh_22112024.Models.XEGANMAY
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>XEGANMAY</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Mã xe: @Html.DisplayFor(model => model.MaXe)
+        </dt>
+
+        <dt>
+            Tên xe: @Html.DisplayFor(model => model.TenXe)
+        </dt>
+
+        <dt>
+            Giá bán: @Html.DisplayFor(model => model.Giaban)
+        </dt>
+
+        <dt>
+            Mô tả:  @Html.DisplayFor(model => model.Mota)
+        </dt>
+
+        <dt>
+            Ảnh bìa:
+            <img src="@Url.Content("~/Content/" + Model.Anhbia)" style="width: 10%;" />
+        </dt>
+
+        <dt>
+            Ngày cập nhật:  @Html.DisplayFor(model => model.Ngaycapnhat)
+        </dt>
+
+        <dt>
+            Số lượng tồn: @Html.DisplayFor(model => model.Soluongton)
+        </dt>
+
+        <dt>
+            Loại xe:  @Html.DisplayFor(model => model.MaLX)
+        </dt>
+
+        <dt>
+            Nhà phân phối:  @Html.DisplayFor(model => model.MaNPP)
+        </dt>
+
+    </dl>
+
+
+    @using (Html.BeginForm("VerifyDelete", "Admin", FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+        @Html.Hidden("id", Model.MaXe)
+
+        <div class="form-actions no-color">
+            <button type="submit" class="btn btn-danger">Xóa</button> |
+            @Html.ActionLink("Trở về", "XeGanMay", null, new { @class = "btn btn-default" })
+        </div>
+    }
+
+
+
+</div>

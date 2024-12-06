@@ -1,0 +1,9 @@
+﻿@model IEnumerable<ThucHanh_22112024.Models.NHAPHANPHOI>
+@foreach (var item in Model)
+{
+    <li>
+        <a href="@Url.Action("SPTheoNhaPhanPhoi", "Motorcycle", new {id = item.MaNPP})">
+            @item.TenNPP
+        </a>
+    </li>
+}

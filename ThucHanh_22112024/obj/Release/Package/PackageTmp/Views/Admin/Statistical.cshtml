@@ -1,0 +1,39 @@
+﻿@{
+    ViewBag.Title = "Statistical";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+}
+
+<h2>Thống kê</h2>
+
+<canvas id="myChart" width="400" height="200"></canvas>
+
+<script>
+    // Lấy dữ liệu từ ViewBag
+    var xeData = @Html.Raw(Json.Encode(ViewBag.XeData));
+    var loaiXeNames = @Html.Raw(Json.Encode(ViewBag.LoaiXeNames));
+
+    // Tạo mảng dữ liệu cho biểu đồ
+    var labels = xeData.map(data => loaiXeNames[data.LoaiXe.toString()] || "Unknown");
+    var dataValues = xeData.map(data => data.SoLuong);
+
+    // Cấu hình và vẽ biểu đồ
+    new Chart(document.getElementById('myChart').getContext('2d'), {
+        type: 'bar',
+        data: {
+            labels: labels,
+            datasets: [{
+                label: 'Số lượng xe theo loại',
+                data: dataValues,
+                backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                borderColor: 'rgba(54, 162, 235, 1)',
+                borderWidth: 1
+            }]
+        },
+        options: {
+            scales: {
+                y: { beginAtZero: true }
+            }
+        }
+    });
+</script>

@@ -1,0 +1,17 @@
+﻿@model IEnumerable<ThucHanh_22112024.Models.XEGANMAY>
+@{
+    ViewBag.Title = "SPTheoNhaPhanPhoi";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div id="danhsachxe">
+    @foreach (var xe in Model)
+    {
+        <div>
+            <a href="@Url.Action("Details", "Motorcycle", new { id = xe.MaXe })">
+                <img alt="@xe.TenXe" src="~/Content/@xe.Anhbia" />
+                <span>@xe.TenXe</span>
+            </a>
+        </div>
+    }
+</div>

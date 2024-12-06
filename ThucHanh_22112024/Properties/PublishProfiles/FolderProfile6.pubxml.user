@@ -1,0 +1,1201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\LAPTRINHWEB\ThucHanh\Final</_PublishTargetUrl>
+    <History>True|2024-12-06T15:10:09.8803515Z||;True|2024-12-06T21:54:29.1572386+07:00||;True|2024-12-06T21:50:38.0483817+07:00||;True|2024-12-06T21:50:26.3932112+07:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>04/17/2020 03:38:42</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>04/17/2020 03:38:56</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>09/05/2018 16:10:50</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>04/11/2022 19:09:46</publishTime>
+    </File>
+    <File Include="bin/PagedList.dll">
+      <publishTime>10/01/2013 00:36:38</publishTime>
+    </File>
+    <File Include="bin/PagedList.Mvc.dll">
+      <publishTime>10/01/2013 01:15:20</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>08/08/2018 12:18:12</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe.config">
+      <publishTime>08/08/2018 12:18:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>08/08/2018 12:09:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>12/05/2017 09:36:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>12/05/2017 09:36:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Managed.Core.targets">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Win32.Primitives.dll">
+      <publishTime>11/05/2016 18:55:32</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>11/05/2016 18:55:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>05/16/2018 03:29:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Console.dll">
+      <publishTime>11/05/2016 18:55:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.DiagnosticSource.dll">
+      <publishTime>11/05/2016 18:55:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>11/05/2016 18:55:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>11/05/2016 18:55:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Globalization.Calendars.dll">
+      <publishTime>11/05/2016 18:56:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.dll">
+      <publishTime>11/05/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.ZipFile.dll">
+      <publishTime>11/05/2016 18:56:04</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>11/05/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>11/05/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Net.Http.dll">
+      <publishTime>11/05/2016 18:56:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Net.Sockets.dll">
+      <publishTime>11/05/2016 18:56:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>05/16/2018 03:29:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Runtime.InteropServices.RuntimeInformation.dll">
+      <publishTime>11/05/2016 18:57:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>11/05/2016 18:57:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
+      <publishTime>11/05/2016 18:57:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
+      <publishTime>11/05/2016 18:57:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>11/05/2016 18:57:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
+      <publishTime>11/05/2016 18:57:20</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Threading.Tasks.Extensions.dll">
+      <publishTime>11/05/2016 18:57:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.ValueTuple.dll">
+      <publishTime>11/05/2016 18:57:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
+      <publishTime>11/05/2016 18:57:36</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
+      <publishTime>11/05/2016 18:57:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.dll">
+      <publishTime>11/05/2016 18:57:40</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
+      <publishTime>11/05/2016 18:57:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>08/08/2018 12:18:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>08/08/2018 12:09:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>08/08/2018 12:18:16</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>05/27/2022 23:41:54</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>05/27/2022 23:42:20</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>05/27/2022 23:42:06</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Deployment.dll">
+      <publishTime>05/27/2022 23:42:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.dll">
+      <publishTime>05/27/2022 23:42:16</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Razor.dll">
+      <publishTime>05/27/2022 23:42:50</publishTime>
+    </File>
+    <File Include="bin/ThucHanh_22112024.dll">
+      <publishTime>12/06/2024 22:10:08</publishTime>
+    </File>
+    <File Include="bin/ThucHanh_22112024.pdb">
+      <publishTime>12/06/2024 22:10:08</publishTime>
+    </File>
+    <File Include="Content/css/adminLogin.css">
+      <publishTime>12/06/2024 13:59:50</publishTime>
+    </File>
+    <File Include="Content/css/CartIndex.css">
+      <publishTime>11/29/2024 18:22:11</publishTime>
+    </File>
+    <File Include="Content/css/chitiet.css">
+      <publishTime>11/22/2024 20:28:27</publishTime>
+    </File>
+    <File Include="Content/css/cssweb.css">
+      <publishTime>12/06/2024 14:49:40</publishTime>
+    </File>
+    <File Include="Content/css/CUB.css">
+      <publishTime>11/22/2024 13:57:53</publishTime>
+    </File>
+    <File Include="Content/css/Dangky.css">
+      <publishTime>11/29/2024 15:35:45</publishTime>
+    </File>
+    <File Include="Content/css/DangNhap.css">
+      <publishTime>11/29/2024 15:48:52</publishTime>
+    </File>
+    <File Include="Content/css/Details.css">
+      <publishTime>11/22/2024 20:32:25</publishTime>
+    </File>
+    <File Include="Content/css/GSX-S150.css">
+      <publishTime>11/22/2024 13:57:53</publishTime>
+    </File>
+    <File Include="Content/css/honda.css">
+      <publishTime>11/22/2024 13:57:53</publishTime>
+    </File>
+    <File Include="Content/css/LayoutAdmin.css">
+      <publishTime>12/06/2024 15:19:40</publishTime>
+    </File>
+    <File Include="Content/css/lh2.css">
+      <publishTime>11/22/2024 13:57:53</publishTime>
+    </File>
+    <File Include="Content/css/lienhe.css">
+      <publishTime>11/22/2024 13:57:53</publishTime>
+    </File>
+    <File Include="Content/css/phantrang.css">
+      <publishTime>11/29/2024 19:19:30</publishTime>
+    </File>
+    <File Include="Content/css/slide.css">
+      <publishTime>11/22/2024 13:57:53</publishTime>
+    </File>
+    <File Include="Content/css/trangchu.css">
+      <publishTime>12/06/2024 14:49:48</publishTime>
+    </File>
+    <File Include="Content/Images/2.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/256-256-3a1eef40f04875d93dd6545f2f1b727e-youtube.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/a.jpg">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/a1.jpg">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/a2.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/a3.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/a4.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/a5.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/axo.jpg">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/az.jpg">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/az2.jpg">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/best_2131633976-1.jpeg">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/blade-t-6b78.jpg">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/center-gsx150.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/Chonmua.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/cuoi.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/d.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/dangnhap.jpg">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/dau.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/Dong-Co.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/duoi.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/facebook.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/FB.jpg">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/fz.jpg">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/fz2.jpg">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/gia-xe-honda-super-cub-c125-monkey-125-motosaigon-39.jpg">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/Giohang.gif">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/gmail.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/gsx-3.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/gsx150-2.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/gsx150-ket-cau.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/gsx150-tskt.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/gsx150.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/home_icon.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/Honda-Blade-110-2019-phiên-bản-mới-MotoSaigon.vn-4.jpg">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/honda-icb.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/Honda-Wave-125i-2019-6.jpg">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/IMG_001221.jpg">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/j.jpg">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/j2.jpg">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/k.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/ket-cau.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/l.jpg">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/l2.jpg">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/l3.jpg">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/list.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/logo.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/m.jpg">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/m2.jpg">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/mat.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/mt.jpg">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/mx.jpg">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/mx2.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/n.jpg">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/n2.jpg">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/piaggio-icb.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/px.jpg">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/px2.jpg">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/r.jpg">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/r2.jpg">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/S150-LOGO.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/search_mobile.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/sh.jpg">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/sh2.jpg">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/sh3.jpg">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/si.jpg">
+      <publishTime>11/22/2024 19:27:03</publishTime>
+    </File>
+    <File Include="Content/Images/si2.jpg">
+      <publishTime>11/22/2024 19:27:03</publishTime>
+    </File>
+    <File Include="Content/Images/suzuki-icb.png">
+      <publishTime>11/22/2024 19:27:03</publishTime>
+    </File>
+    <File Include="Content/Images/sym-icb.png">
+      <publishTime>11/22/2024 19:27:03</publishTime>
+    </File>
+    <File Include="Content/Images/than.png">
+      <publishTime>11/22/2024 19:27:03</publishTime>
+    </File>
+    <File Include="Content/Images/thiet-ke.png">
+      <publishTime>11/22/2024 19:27:03</publishTime>
+    </File>
+    <File Include="Content/Images/top-banner-1.png">
+      <publishTime>11/22/2024 19:27:03</publishTime>
+    </File>
+    <File Include="Content/Images/top-banner-2.png">
+      <publishTime>11/22/2024 19:27:03</publishTime>
+    </File>
+    <File Include="Content/Images/ts.png">
+      <publishTime>11/22/2024 19:27:03</publishTime>
+    </File>
+    <File Include="Content/Images/ts2.png">
+      <publishTime>11/22/2024 19:27:03</publishTime>
+    </File>
+    <File Include="Content/Images/tskt.png">
+      <publishTime>11/22/2024 19:27:03</publishTime>
+    </File>
+    <File Include="Content/Images/vi.jpg">
+      <publishTime>11/22/2024 19:27:03</publishTime>
+    </File>
+    <File Include="Content/Images/vi2.jpg">
+      <publishTime>11/22/2024 19:27:03</publishTime>
+    </File>
+    <File Include="Content/Images/w.jpg">
+      <publishTime>11/22/2024 19:27:03</publishTime>
+    </File>
+    <File Include="Content/Images/w2.png">
+      <publishTime>11/22/2024 19:27:03</publishTime>
+    </File>
+    <File Include="Content/Images/wave-125i-thái-lan-e1557221627412.jpg">
+      <publishTime>11/22/2024 19:27:03</publishTime>
+    </File>
+    <File Include="Content/Images/web-logo.png">
+      <publishTime>11/22/2024 19:27:03</publishTime>
+    </File>
+    <File Include="Content/Images/xe-1.jpg">
+      <publishTime>11/22/2024 19:27:03</publishTime>
+    </File>
+    <File Include="Content/Images/XE/Honda/4514790_Xe_Tinhte_SH_2.jpg">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/XE/Honda/Blade110cc.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/XE/Honda/chi-tiet-xe-may-honda-wave-125i-2017-gia-32-trieu.jpg">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/XE/Honda/danh-gia-honda-air-blade-2015-gia-xe-va-chi-tiet-hinh-anh-457-1420225983-54a6edbf31871.jpg">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/XE/Honda/danh-gia-xe-future-2016-honda-hinh-anh-gia-ban-moi-nhat-1.jpg">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/XE/Honda/Future_125cc.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/XE/Honda/Lead-Thumb.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/XE/Honda/Monkey-Yellow.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/XE/Honda/MSX125ccpng.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/XE/Honda/PCX_125-150_Thumb.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/XE/Honda/PCX_Hybrid.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/XE/Honda/Rebel500.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/XE/Honda/SHModepng.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/XE/Honda/SH_125_150_Bac.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/XE/Honda/SH_300_Xam_Den.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/XE/Honda/super cub c125.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/XE/Honda/vision-1443.jpg">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/XE/Honda/Vision_Den_Mo.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/XE/Honda/Wavel_Alpha_110cc.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/XE/Honda/Wave_RSX_fi110cc.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/XE/Honda/Winner_Thumb.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/XE/Honda/Đánh-giá-xe-Honda-Blade-110-2016-hình-ảnh-giá-bán-thị-trường-7.jpg">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/XE/Piaggio/gia-xe-piaggio-fly-t-2d88.jpg">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/XE/Piaggio/liberty u23.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/XE/Piaggio/medley abs 125.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/XE/Piaggio/medley abs se.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/XE/Piaggio/medleyABS 150.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/XE/Piaggio/piaggio_liberty_abs_125_iGet_mau_trang_0.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/XE/Piaggio/zip.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/XE/Suzuki/08-viva-115-fi-9b1b5b7cd6178858c6b23643f079c261.jpg">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/XE/Suzuki/500x400-Si-FI-Anni-20-years-004.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/XE/Suzuki/address110fi.jpg">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/XE/Suzuki/axelo125.jpg">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/XE/Suzuki/GD110HU.jpg">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/XE/Suzuki/GSX-S150.jpg">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/XE/Suzuki/GSX150 - BANDIT.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/XE/Suzuki/gz150-a.jpg">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/XE/Suzuki/hayate125.jpg">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/XE/Suzuki/impulsẹfi.jpg">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/XE/Suzuki/RAIDER R150 FI.jpg">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/XE/Suzuki/revo110.jpg">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/XE/Suzuki/xanh-den.jpg">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/XE/Sym/amigo50.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/XE/Sym/angel 110r.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/XE/Sym/angela50.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/XE/Sym/Attila-V Smart Idle.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/XE/Sym/elegant 50.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/XE/Sym/elegant50.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/XE/Sym/elite50.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/XE/Sym/elizabeth.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/XE/Sym/fancy125efi.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/XE/Sym/galaxy-sr115.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/XE/Sym/galaxy50.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/XE/Sym/husky-classic125.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/XE/Sym/shark.jpg">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/XE/Sym/star sr 170.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/XE/Sym/venus125efi.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/XE/Yamaha/acruzo.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/XE/Yamaha/exciter 150 kyniem.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/XE/Yamaha/exciter 150 RC.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/XE/Yamaha/FreeGo S.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/XE/Yamaha/fz.jpg">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/XE/Yamaha/Grande Deluxepng.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/XE/Yamaha/Grande Premium.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/XE/Yamaha/Janus Standard.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/XE/Yamaha/jupiter.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/XE/Yamaha/mt03.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/XE/Yamaha/nvx.jpg">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/XE/Yamaha/sirius FI RC.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/XE/Yamaha/sirius.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/XE/Yamaha/TFX 150.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/XE/Yamaha/yamaha-y135lc-2017-1.jpg">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/XE/Yamaha/YZF-R15.png">
+      <publishTime>11/22/2024 19:27:02</publishTime>
+    </File>
+    <File Include="Content/Images/y.jpg">
+      <publishTime>11/22/2024 19:27:03</publishTime>
+    </File>
+    <File Include="Content/Images/y2.jpg">
+      <publishTime>11/22/2024 19:27:03</publishTime>
+    </File>
+    <File Include="Content/Images/yamaha-icb.png">
+      <publishTime>11/22/2024 19:27:03</publishTime>
+    </File>
+    <File Include="Content/Images/youtube-icon-vector-21082515.jpg">
+      <publishTime>11/22/2024 19:27:03</publishTime>
+    </File>
+    <File Include="Content/Images/youtube.png">
+      <publishTime>11/22/2024 19:27:03</publishTime>
+    </File>
+    <File Include="Content/PagedList.css">
+      <publishTime>11/29/2024 19:04:28</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>11/22/2024 14:03:16</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>11/22/2024 13:20:46</publishTime>
+    </File>
+    <File Include="Models/QLBanXeGanMay.edmx.diagram">
+      <publishTime>12/06/2024 22:02:03</publishTime>
+    </File>
+    <File Include="Scripts/chitiet.js">
+      <publishTime>11/22/2024 13:58:28</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.9.1.min.js">
+      <publishTime>11/22/2024 13:58:28</publishTime>
+    </File>
+    <File Include="Scripts/Slider.js">
+      <publishTime>11/22/2024 13:58:28</publishTime>
+    </File>
+    <File Include="tinymce/CHANGELOG.md">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/icons/default/icons.min.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/langs/README.md">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/license.md">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/models/dom/model.min.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/accordion/plugin.min.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/advlist/plugin.min.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/anchor/plugin.min.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/autolink/plugin.min.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/autoresize/plugin.min.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/autosave/plugin.min.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/charmap/plugin.min.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/code/plugin.min.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/codesample/plugin.min.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/directionality/plugin.min.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/emoticons/js/emojiimages.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/emoticons/js/emojiimages.min.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/emoticons/js/emojis.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/emoticons/js/emojis.min.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/emoticons/plugin.min.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/fullscreen/plugin.min.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/ar.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/bg_BG.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/ca.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/cs.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/da.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/de.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/el.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/en.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/es.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/eu.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/fa.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/fi.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/fr_FR.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/he_IL.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/hi.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/hr.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/hu_HU.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/id.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/it.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/ja.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/kk.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/ko_KR.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/ms.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/nb_NO.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/nl.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/pl.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/pt_BR.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/pt_PT.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/ro.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/ru.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/sk.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/sl_SI.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/sv_SE.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/th_TH.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/tr.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/uk.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/vi.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/zh_CN.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/zh_TW.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/plugin.min.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/image/plugin.min.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/importcss/plugin.min.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/insertdatetime/plugin.min.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/link/plugin.min.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/lists/plugin.min.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/media/plugin.min.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/nonbreaking/plugin.min.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/pagebreak/plugin.min.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/preview/plugin.min.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/quickbars/plugin.min.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/save/plugin.min.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/searchreplace/plugin.min.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/table/plugin.min.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/visualblocks/plugin.min.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/visualchars/plugin.min.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/wordcount/plugin.min.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/skins/content/dark/content.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/skins/content/dark/content.min.css">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/skins/content/default/content.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/skins/content/default/content.min.css">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/skins/content/document/content.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/skins/content/document/content.min.css">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/skins/content/tinymce-5-dark/content.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/skins/content/tinymce-5-dark/content.min.css">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/skins/content/tinymce-5/content.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/skins/content/tinymce-5/content.min.css">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/skins/content/writer/content.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/skins/content/writer/content.min.css">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/skins/ui/oxide-dark/content.inline.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/skins/ui/oxide-dark/content.inline.min.css">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/skins/ui/oxide-dark/content.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/skins/ui/oxide-dark/content.min.css">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/skins/ui/oxide-dark/skin.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/skins/ui/oxide-dark/skin.min.css">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/skins/ui/oxide-dark/skin.shadowdom.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/skins/ui/oxide-dark/skin.shadowdom.min.css">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/skins/ui/oxide/content.inline.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/skins/ui/oxide/content.inline.min.css">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/skins/ui/oxide/content.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/skins/ui/oxide/content.min.css">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/skins/ui/oxide/skin.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/skins/ui/oxide/skin.min.css">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/skins/ui/oxide/skin.shadowdom.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/skins/ui/oxide/skin.shadowdom.min.css">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/skins/ui/tinymce-5-dark/content.inline.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/skins/ui/tinymce-5-dark/content.inline.min.css">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/skins/ui/tinymce-5-dark/content.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/skins/ui/tinymce-5-dark/content.min.css">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/skins/ui/tinymce-5-dark/skin.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/skins/ui/tinymce-5-dark/skin.min.css">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/skins/ui/tinymce-5-dark/skin.shadowdom.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/skins/ui/tinymce-5-dark/skin.shadowdom.min.css">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/skins/ui/tinymce-5/content.inline.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/skins/ui/tinymce-5/content.inline.min.css">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/skins/ui/tinymce-5/content.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/skins/ui/tinymce-5/content.min.css">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/skins/ui/tinymce-5/skin.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/skins/ui/tinymce-5/skin.min.css">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/skins/ui/tinymce-5/skin.shadowdom.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/skins/ui/tinymce-5/skin.shadowdom.min.css">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/themes/silver/theme.min.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/tinymce.min.js">
+      <publishTime>12/06/2024 15:27:39</publishTime>
+    </File>
+    <File Include="Views/Admin/Create.cshtml">
+      <publishTime>12/06/2024 16:19:44</publishTime>
+    </File>
+    <File Include="Views/Admin/Delete.cshtml">
+      <publishTime>12/06/2024 17:07:39</publishTime>
+    </File>
+    <File Include="Views/Admin/Details.cshtml">
+      <publishTime>12/06/2024 16:43:27</publishTime>
+    </File>
+    <File Include="Views/Admin/Edit.cshtml">
+      <publishTime>12/06/2024 20:45:48</publishTime>
+    </File>
+    <File Include="Views/Admin/Index.cshtml">
+      <publishTime>12/06/2024 13:47:45</publishTime>
+    </File>
+    <File Include="Views/Admin/Login.cshtml">
+      <publishTime>12/06/2024 14:01:02</publishTime>
+    </File>
+    <File Include="Views/Admin/Statistical.cshtml">
+      <publishTime>12/06/2024 20:35:20</publishTime>
+    </File>
+    <File Include="Views/Admin/XeGanMay.cshtml">
+      <publishTime>12/06/2024 19:31:56</publishTime>
+    </File>
+    <File Include="Views/Cart/Cart.cshtml">
+      <publishTime>11/29/2024 19:05:34</publishTime>
+    </File>
+    <File Include="Views/Cart/ConfirmOrder.cshtml">
+      <publishTime>11/29/2024 18:44:40</publishTime>
+    </File>
+    <File Include="Views/Cart/Index.cshtml">
+      <publishTime>11/29/2024 19:05:55</publishTime>
+    </File>
+    <File Include="Views/Customer/DangKy.cshtml">
+      <publishTime>11/29/2024 15:44:12</publishTime>
+    </File>
+    <File Include="Views/Customer/DangNhap.cshtml">
+      <publishTime>11/29/2024 15:49:09</publishTime>
+    </File>
+    <File Include="Views/Customer/Index.cshtml">
+      <publishTime>11/29/2024 15:38:41</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>12/06/2024 21:56:07</publishTime>
+    </File>
+    <File Include="Views/Motorcycle/Details.cshtml">
+      <publishTime>11/29/2024 17:02:12</publishTime>
+    </File>
+    <File Include="Views/Motorcycle/Index.cshtml">
+      <publishTime>12/06/2024 22:00:32</publishTime>
+    </File>
+    <File Include="Views/Motorcycle/LoaiXe.cshtml">
+      <publishTime>11/22/2024 16:38:48</publishTime>
+    </File>
+    <File Include="Views/Motorcycle/NhaPhanPhoi.cshtml">
+      <publishTime>11/22/2024 20:10:37</publishTime>
+    </File>
+    <File Include="Views/Motorcycle/SPTheoLoaiXe.cshtml">
+      <publishTime>11/22/2024 19:46:03</publishTime>
+    </File>
+    <File Include="Views/Motorcycle/SPTheoNhaPhanPhoi.cshtml">
+      <publishTime>11/22/2024 20:03:30</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>11/29/2024 17:22:51</publishTime>
+    </File>
+    <File Include="Views/Shared/_LayoutAdmin.cshtml">
+      <publishTime>12/06/2024 20:20:58</publishTime>
+    </File>
+    <File Include="Views/web.config">
+      <publishTime>11/22/2024 13:20:47</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>11/29/2024 14:57:43</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>12/06/2024 22:10:09</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

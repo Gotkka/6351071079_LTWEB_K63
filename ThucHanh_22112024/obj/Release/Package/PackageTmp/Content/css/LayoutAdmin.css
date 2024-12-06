@@ -1,0 +1,218 @@
+﻿/* General styles for navigation */
+nav {
+    background-color: #333; /* Màu nền cho thanh nav */
+    position: fixed; /* Đảm bảo nav cố định trên đầu */
+    top: 0;
+    left: 0;
+    width: 100%; /* Trải rộng toàn màn hình */
+    z-index: 1000; /* Hiển thị trên các thành phần khác */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Thêm bóng cho nav */
+}
+
+/* Menu container */
+#menu {
+    display: flex;
+    justify-content: center; /* Canh giữa các mục menu */
+    padding: 10px 0; /* Khoảng cách trên và dưới */
+}
+
+    /* List styles */
+    #menu ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+
+        /* List items */
+        #menu ul li {
+            margin: 0 15px; /* Khoảng cách giữa các mục menu */
+        }
+
+            /* Link styles */
+            #menu ul li a {
+                text-decoration: none; /* Loại bỏ gạch chân */
+                color: white; /* Màu chữ */
+                font-weight: bold;
+                font-size: 16px;
+                transition: color 0.3s ease;
+            }
+
+                #menu ul li a:hover {
+                    color: #007bff; /* Màu khi hover */
+                }
+
+/* Body padding to avoid overlapping */
+body {
+    padding-top: 60px; /* Tạo khoảng trống phía trên cho nội dung */
+}
+
+.body-content 
+{
+    margin-top: 20px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    #menu ul {
+        flex-direction: column; /* Hiển thị dọc trên màn hình nhỏ */
+        align-items: center;
+    }
+
+        #menu ul li {
+            margin: 10px 0; /* Khoảng cách giữa các mục trên màn hình nhỏ */
+        }
+}
+
+/* Custom styles for the form */
+form {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+    /* Styling for labels */
+    form .control-label {
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: #555;
+    }
+
+    /* Form control styles */
+    form .form-control {
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        padding: 10px;
+        width: 100%;
+        box-sizing: border-box;
+        margin-bottom: 15px;
+        transition: border-color 0.3s ease;
+    }
+
+        form .form-control:focus {
+            border-color: #007bff;
+            outline: none;
+            box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+        }
+
+/* Style for the file input */
+input[type="file"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 96.5%;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+}
+
+    /* Focus effect for file input */
+    input[type="file"]:focus {
+        border-color: #007bff;
+        outline: none;
+        box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    }
+
+/* Style for notification message */
+.ViewBagNotification {
+    color: #007bff;
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+    /* Optional: Style to highlight error notifications */
+    .ViewBagNotification.error {
+        color: #d9534f; /* Red color for errors */
+    }
+
+input[type="date"] {
+    width: 96.5%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+}
+
+    /* Add a focus effect */
+    input[type="date"]:focus {
+        border-color: #007bff;
+        outline: none;
+        box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    }
+
+/* Validation messages */
+.text-danger {
+    color: #d9534f;
+    font-size: 0.9em;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+/* Submit button */
+form input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    form input[type="submit"]:hover {
+        background-color: #0056b3;
+    }
+
+/* Back to List link */
+div a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+    div a:hover {
+        text-decoration: underline;
+    }
+
+/* Heading styles */
+h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Aligning form group */
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Back to List link */
+.backtolist {
+    text-align: center; /* Canh giữa */
+    margin-top: 20px; /* Khoảng cách phía trên */
+}
+
+    .backtolist a {
+        color: #007bff; /* Màu chữ cho link */
+        font-size: 16px; /* Kích thước chữ */
+        text-decoration: none; /* Xóa gạch chân */
+        font-weight: bold; /* Chữ đậm */
+        transition: color 0.3s ease; /* Hiệu ứng màu khi hover */
+    }
+
+        .backtolist a:hover {
+            color: #0056b3; /* Màu khi hover */
+            text-decoration: underline; /* Gạch chân khi hover */
+        }
+

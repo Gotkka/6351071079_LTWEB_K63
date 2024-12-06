@@ -1,0 +1,70 @@
+﻿@model IEnumerable<ThucHanh_22112024.Models.Cart>
+
+@{
+    ViewBag.Title = "Cart";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Your Shopping Cart</h2>
+
+@if (ViewBag.TotalQuantity == 0)
+{
+    <p>Your cart is empty.</p>
+    <a href="@Url.Action("Index", "Motorcycle")">Browse Products</a>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Total</th>
+                <th>Remove</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Motorcycle.Name</td>
+                    <td>
+                        <input type="number" class="form-control" value="@item.quantity" min="1" max="99" onchange="updateQuantity(@item.motorcycleId, this.value)" />
+                    </td>
+                    <td>@item.Motorcycle.Price.ToString("C")</td>
+                    <td>@item.intoMoney.ToString("C")</td>
+                    <td>
+                        <a href="@Url.Action("RemoveCart", "Cart", new { id = item.motorcycleId })" class="btn btn-danger">Remove</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <div class="cart-summary">
+        <p><strong>Total Quantity:</strong> @ViewBag.TotalQuantity</p>
+        <p><strong>Total Price:</strong> @ViewBag.TotalPrice.ToString("C")</p>
+    </div>
+
+    <div class="cart-actions">
+        <a href="@Url.Action("Index", "Motorcycle")" class="btn btn-primary">Continue Shopping</a>
+        <a href="@Url.Action("Checkout", "Cart")" class="btn btn-success">Proceed to Checkout</a>
+    </div>
+}
+
+@*@section scripts {
+    <script type="text/javascript">
+        // Function to update quantity when the input changes
+        function updateQuantity(id, quantity) {
+            $.ajax({
+                url: '@Url.Action("UpdateCart", "Cart")',
+                data: { id: id, quantity: quantity },
+                type: 'POST',
+                success: function (result) {
+                    location.reload(); // Refresh the page to show updated cart details
+                }
+            });
+        }
+    </script>
+}*@
